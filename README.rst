@@ -73,9 +73,26 @@ Running this code generates the following figure:
 
 |image0|
 
-.. |image0| image:: figures/figure1.png
+.. |image0| image:: figure1.png
 
 More examples
 -------------
 
-`doctest examples in source code <airvacuumvald/airvacuum.py>`_.
+The following code converts wavenumber=2000 cm**-1 to wavelength in Angstrom::
+
+
+    >>> import airvacuumvald as avv
+    >>> print(avv.vacuum_to_air(1e8/2000))
+    49986.36934549974
+
+
+The following code converts wavelength=5500 Angstrom to wavenumber in cm**-1::
+
+    >>> import airvacuumvald as avv
+    >>> print(1e8/avv.air_to_vacuum(5500.))
+    18176.768046090445
+
+Source code
+-----------
+
+`doctest examples in source code <airvacuumvald/airvacuum.py>`_
