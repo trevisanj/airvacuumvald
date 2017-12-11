@@ -95,4 +95,4 @@ The following code converts wavelength=5500 Angstrom to wavenumber in cm**-1::
 Source code
 -----------
 
-`doctest examples in source code <airvacuumvald/airvacuum.py>`_
+`<airvacuumvald/airvacuum.py>`_
