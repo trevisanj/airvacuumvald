@@ -7,7 +7,7 @@ setup(
     name="airvacuumvald",
     packages=["airvacuumvald"],
     include_package_data=True,
-    version='0.17.12.11.0',
+    version='23.7.17.0',
     license='GNU GPLv3',
     platforms='any',
     description='Python implementation of the air-to-vacuum and vacuum-to-air wavelength '
